@@ -3,8 +3,14 @@ Simple url shotrener service
 
 Endpoints: 
 
-/api/url/ - GET, POST
+/api/url/ - GET, POST 
 
 /api/url/<short_id>/ - GET, PUT, DELETE 
 
 /<short_id>/ - GET
+
+/api/url/ POST:
+
+{"url": {"full_url": <full_url>, "shortened_url": "shortened_url"}}
+
+Random if no shortened_url specified
