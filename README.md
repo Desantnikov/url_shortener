@@ -1,5 +1,5 @@
 # url_shortener
-Simple url shotrener service
+Simple url shotrener service to practice django and django rest framework skills
 
 Endpoints: 
 
